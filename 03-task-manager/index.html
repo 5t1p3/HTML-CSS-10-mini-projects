@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager Starter</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <main class="section">
+      <div class="center-section">
+        <div class="task-manager">
+          <h2>task manager</h2>
+          <form>
+            <input type="text" placeholder="e.g. wash dishes" />
+            <button type="submit">submit</button>
+          </form>
+          <small>there was an error</small>
+        </div>
+        <div class="loading-container">
+          <small>loading...</small>
+        </div>
+        <div class="tasks">
+          <article class="task task-1">
+            <h2>task name</h2>
+            <div class="btns-new">
+              <a href="#">
+                <i class="fas fa-edit"></i>
+              </a>
+              <button>
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+          </article>
+          <article class="task task-2">
+            <h2>
+              <span><i class="far fa-check-circle"></i></span>task name
+            </h2>
+            <div class="btns-new">
+              <a href="#">
+                <i class="fas fa-edit"></i>
+              </a>
+              <button>
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
